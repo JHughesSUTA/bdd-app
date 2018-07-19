@@ -17,3 +17,6 @@
 /yarn-error.log
 
 .byebug_history
+
+# prevent pushing gems to github
+echo 'vendor/bundle' >> .gitignore
